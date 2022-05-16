@@ -2,7 +2,7 @@ Repoistory for HTML & CSS course in May 2022.
 
 Topics:
 
-* - [ ] Introduction to HTML & CSS
+* - [x] Introduction to HTML & CSS
 * - [ ] CSS & Typography
 * - [ ] CSS Box Model
 * - [ ] CSS Flexbox
