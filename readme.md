@@ -4,7 +4,7 @@ Topics:
 
 * - [x] Introduction to HTML & CSS
 * - [x] HTML Structure
-* - [ ] CSS & Typography
+* - [x] CSS & Typography
 * - [ ] CSS Box Model
 * - [ ] CSS Flexbox
 * - [ ] CSS Grid
