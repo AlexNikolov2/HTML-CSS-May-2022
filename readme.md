@@ -1,5 +1,6 @@
 # HTML & CSS - May 2022 #
 
+![fuck hajduk split](https://softuni.bg/Files/Courses/imgonline-com-ua-compressed-AZ7woueWHz.jpg)
 Repoistory for HTML & CSS course in May 2022.
 
 Topics:
