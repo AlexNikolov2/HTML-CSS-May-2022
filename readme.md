@@ -9,7 +9,7 @@ Topics:
 * - [x] Introduction to HTML & CSS
 * - [x] HTML Structure
 * - [x] CSS & Typography
-* - [ ] CSS Box Model
+* - [x] CSS Box Model
 * - [ ] CSS Flexbox
 * - [ ] CSS Grid
 * - [ ] Media Queries and Animations
