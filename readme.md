@@ -11,7 +11,7 @@ Topics:
 * - [x] CSS & Typography
 * - [x] CSS Box Model
 * - [ ] CSS Flexbox
-* - [ ] CSS Grid
+* - [x] CSS Grid
 * - [ ] Media Queries and Animations
 
 Exam: 26th of June, 2022.
