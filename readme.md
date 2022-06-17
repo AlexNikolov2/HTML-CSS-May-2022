@@ -10,7 +10,7 @@ Topics:
 * - [x] HTML Structure
 * - [x] CSS & Typography
 * - [x] CSS Box Model
-* - [ ] CSS Flexbox
+* - [x] CSS Flexbox
 * - [x] CSS Grid
 * - [ ] Media Queries and Animations
 
