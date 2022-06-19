@@ -1,0 +1,166 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  background-color: #ffffff;
+}
+
+.component {
+  background-color: rgb(224, 224, 224);
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.left{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    padding: 50px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.one>.left{
+    flex-grow: 0.3;
+    position: relative;
+    top: -50px;
+}
+.one>.right{
+    margin-left: 130px;
+    position: relative;
+    top: 50px;
+}
+.two{
+    padding: 50px;
+}
+.two>.left{
+    width: 30%;
+    padding: 50px;
+    margin-right: 230px;
+}
+
+ul{
+    position: relative;
+    right: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+ul li{
+    padding: 10px;
+    color: #525252;
+}
+ul li i{
+    color: #525252;
+    font-size: 30px;
+}
+.three img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.four{
+    padding: 100px 0px;
+}
+.four>.right{
+    margin-left: 130px;
+}
+.four>.right img{
+    width: 150%;
+}
+.five img{
+    width: 40%;
+    object-fit: cover;
+}
+.five{
+    padding: 150px;
+    position: relative;
+}
+.five #special{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+}
+.five #left{
+    position: relative;
+    right: 10%;
+}
+.five #right{
+    position: relative;
+    left: 10%;
+}
+.six {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.six form .group-a{
+    display: flex;
+    flex-direction: row;
+}
+.six form .group-a input{
+    width: 100%;
+        font-size: 15px;
+        padding: 10px;
+        margin: 15px;
+        height: 20px;
+        border-radius: 10px;
+        border: 3px solid #222222;
+}
+.six form .group-a input:focus{
+    border: 5px solid #222222;
+}
+textarea{
+    position: relative;
+    width: 450px;
+    resize: none;
+    left: 15px;
+    border: 3px solid #222222;
+}
+
+button{
+    width: 100%;
+    background-color: #222;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    margin: 14px 12px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+.six p{
+    text-align: center;
+    width: 60%;
+}
+.six input{
+    width: 50%;
+    padding: 10px;
+    border: 3px solid #525252;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+h1 {
+  font-size: 50px;
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+}
+p{
+    font-size: 20px;
+    font-family: Raleway, sans-serif;
+    font-style: italic;
+}
+
+span{
+    font-weight: bolder;
+}
