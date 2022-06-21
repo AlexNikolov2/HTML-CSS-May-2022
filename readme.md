@@ -12,7 +12,7 @@ Topics:
 * - [x] CSS Box Model
 * - [x] CSS Flexbox
 * - [x] CSS Grid
-* - [ ] Media Queries and Animations
+* - [x] Media Queries and Animations
 
 Exercises:
 
