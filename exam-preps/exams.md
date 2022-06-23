@@ -1,3 +1,3 @@
 Exam exercises I've solved during my exam preparation.
 
-Exams solved: 2
+Exams solved: 3
