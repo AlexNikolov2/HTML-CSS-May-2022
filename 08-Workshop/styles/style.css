@@ -3,6 +3,7 @@
   --clr-dark: black;
   --clr-white: #fff;
   --clr-grey: #222222;
+  --clr-light-grey: rgb(117, 117, 117);
   font-size: 12px;
 }
 
@@ -252,6 +253,15 @@ body {
   #form .signup-form input{
     width: 600px;
     padding: 0.1rem;
+  }
+
+  footer{
+    padding: 1rem 0px;
+    background-color: var(--clr-dark);
+    margin-top: 0.5rem;
+    text-align: center;
+    color: var(--clr-light-grey);
+    font-weight: normal;
   }
 }
 
