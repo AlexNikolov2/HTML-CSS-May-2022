@@ -175,6 +175,47 @@ body {
   font-weight: 300;
   line-height: 1;
 }
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+  }
+
+  #form .hero__subtitle{
+    font-size: 0.8rem;
+    font-weight: normal;
+    padding-bottom: 15px;
+  }
+
+  #form .signup-form input{
+    width: 600px;
+    padding: 0.1rem;
+  }
+
+  footer{
+    padding: 1rem 0px;
+    background-color: var(--clr-dark);
+    margin-top: 0.5rem;
+    text-align: center;
+    color: var(--clr-light-grey);
+    font-weight: normal;
+  }
+
+  @media screen and (max-width: 768px){
+    #form .signup-form {
+        display: flex;
+        justify-content: center;  
+        flex-direction: column;
+        width: 100%;
+    }
+    #form .signup-form input{
+        width: 100%;
+        margin-bottom: 0.3rem;
+    }
+
+  }
 
 @media screen and (min-width: 768px) {
   :root {
@@ -234,34 +275,6 @@ body {
     width: 90%;
     max-width: 800px;
     margin: 0px auto;
-  }
-
-  #form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 3rem;
-  }
-
-  #form .hero__subtitle{
-    font-size: 0.8rem;
-    font-weight: normal;
-    padding-bottom: 15px;
-  }
-
-  #form .signup-form input{
-    width: 600px;
-    padding: 0.1rem;
-  }
-
-  footer{
-    padding: 1rem 0px;
-    background-color: var(--clr-dark);
-    margin-top: 0.5rem;
-    text-align: center;
-    color: var(--clr-light-grey);
-    font-weight: normal;
   }
 }
 
