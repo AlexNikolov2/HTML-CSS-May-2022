@@ -63,7 +63,6 @@ button {
     margin: 20px auto;
     padding: 10px 30px;
     padding: .375rem .75rem;
-    user-select: none;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     text-align: center;
     vertical-align: middle;
