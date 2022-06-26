@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+main{
+   padding: 0px 100px; 
+   font-family: 'PT Sans', sans-serif;
+}
+.component-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.component-one img{
+    position: relative;
+    text-align: center;
+    color: white;
+    object-fit: cover;
+    width: 100%;
+    filter: brightness(50%);
+}
+#nav{
+    color: white;
+    text-shadow: 2px 2px#000000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 85%;
+    right: 1%;
+}
+#nav p{
+    font-size: 26px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+#content{
+    color: white;
+    text-shadow: 2px 2px#000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    bottom: 35%; 
+}
+#content h1{
+    font-size: 55px;
+}
+#content p{
+    padding: 30px 0px;
+}
+#content button{
+    position: relative;
+    left: 40%;
+    width: 150px;
+    background-color: rgb(4, 218, 147);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+div.left{
+    position: relative;
+    bottom: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.left i{
+    position: relative;
+    top: 30%;
+    padding: 10px;
+}
+.component-two{
+    display: flex;
+    flex-direction: row;
+}
+.component-two img{
+    width: 80%;
+}
+.component-two #hustle-right{
+    position: relative;
+    right: 7%;
+}
+#hustle-right>p{
+    padding-bottom: 20px;
+}
+#hustle-right i{
+    color: rgb(4, 218, 147);
+    padding: 0px 25px 0 5px;
+}
+.component-three{
+    display: flex;
+    flex-direction: row;
+    /*justify-content:space-evenly;*/
+}
+.component-three #img-right img{
+    position: relative;
+    left: 7%;
+    width: 101.5%;
+}
+.component-three #hustle-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+.items-row-one, .items-row-two{
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.items-row-one img, .items-row-two img{
+    width: 30%;
+}
+.component-four{
+    background-color: rgb(166, 254, 225);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.text-row-one, .text-row-two{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+article.item p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(4, 218, 147);
+}
+div.item{
+    padding: 0 55px;
+}
